@@ -1,0 +1,126 @@
+xrun(64): 24.09-s005: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s005: Started on Nov 03, 2025 at 20:30:42 +07
+xrun
+	-f flist
+		-sv
+		-timescale 1ns/100ps
+		./../01_bench/driver.sv
+		./../01_bench/scoreboard.sv
+		./../01_bench/tlib.svh
+		./../01_bench/tbench.sv
+		./../00_src/params.vh
+		./../00_src/full_adder.sv
+		./../00_src/compare.sv
+		./../00_src/add_sub.sv
+		./../00_src/logic_ops.sv
+		./../00_src/shifter.sv
+		./../00_src/alu.sv
+		./../00_src/control_logic.sv
+		./../00_src/immgen.sv
+		./../00_src/inst_mem.sv
+		./../00_src/comparator_1bit.sv
+		./../00_src/comparator_32bit_unsigned.sv
+		./../00_src/brc.sv
+		./../00_src/lsu.sv
+		./../00_src/memory.sv
+		./../00_src/output_peripherals.sv
+		./../00_src/bin2bcd.sv
+		./../00_src/timer.sv
+		./../00_src/timer_wrapper.sv
+		./../00_src/decoder5to32.sv
+		./../00_src/mux32to1_32bit.sv
+		./../00_src/reg32.sv
+		./../00_src/regfile.sv
+		./../00_src/single_cycle.sv
+	+access+rw
+	-sv
+Recompiling... reason: file '../00_src/lsu.sv' is newer than expected.
+	expected: Mon Nov  3 18:59:05 2025
+	actual:   Mon Nov  3 20:30:33 2025
+file: ./../00_src/lsu.sv
+	module worklib.lsu:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x2497ff5a
+		tbench
+		bin2bcd
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.memory:sv <0x59f659cd>
+			streams:   4, words:  2670
+		worklib.lsu:sv <0x48f4a108>
+			streams:  18, words:  9337
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                 254      26
+		Registers:               691     248
+		Scalar wires:          1,693       -
+		Expanded wires:          224       7
+		Vectored wires:          351       -
+		Always blocks:            52      19
+		Initial blocks:            9       8
+		Cont. assignments:       302      98
+		Pseudo assignments:    1,031       -
+		Compilation units:         1       1
+		Process Clocks:           38       3
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.tbench:sv
+Loading snapshot worklib.tbench:sv .................... Done
+xcelium> source /home/yellow/ktmt_l01_l02_23/tools/eda/cadence/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+[IMEM] loading:                                                                                                                                                                                                                                            ../02_test/isa_4b.hex
+[DMEM] loading:                                                                                                                                                                                                                                              ../02_test/mem.dump
+[DMEM] loading:                                                                                                                                                                                                                                              ../02_test/mem.dump
+
+SINGLE CYCLE - ISA test
+
+add......PASS
+addi.....PASS
+sub......PASS
+and......PASS
+andi.....PASS
+or.......PASS
+ori......PASS
+xor......PASS
+xori.....PASS
+slt......PASS
+slti.....PASS
+sltu.....PASS
+sltiu....PASS
+sll......PASS
+slli.....PASS
+srl......PASS
+srli.....PASS
+sra......PASS
+srai.....PASS
+lw.......PASS
+lh.......PASS
+lhu......PASS
+lb.......PASS
+lbu......PASS
+sw.......PASS
+sh.......PASS
+sb.......PASS
+auipc....PASS
+lui......PASS
+beq......PASS
+bne......PASS
+blt......PASS
+bltu.....PASS
+bge......PASS
+bgeu.....PASS
+jal......PASS
+jalr.....PASS
+malgn....PASS
+iosw.....PASS
+
+END of ISA test
+
+Simulation complete via $finish(1) at time 19398 NS + 1
+../01_bench/scoreboard.sv:33       $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s005: Exiting on Nov 03, 2025 at 20:30:44 +07  (total: 00:00:02)

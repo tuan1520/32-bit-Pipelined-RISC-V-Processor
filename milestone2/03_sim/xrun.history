@@ -1,0 +1,12 @@
+#e1(03Nov2025:19:00:22): source ./xcelium.d/env.d/env.history.03Nov2025_19_00_22
+s1(03Nov2025:19:00:22):  xrun -f flist +access+rw -sv 
+#e2(03Nov2025:19:41:20): source ./xcelium.d/env.d/env.history.03Nov2025_19_41_20
+s2(03Nov2025:19:41:20):  xrun -f flist +access+rw -sv 
+#e3(03Nov2025:19:50:31): source ./xcelium.d/env.d/env.history.03Nov2025_19_50_31
+s3(03Nov2025:19:50:31):  xrun -f flist +access+rw -sv 
+#e4(03Nov2025:20:02:50): source ./xcelium.d/env.d/env.history.03Nov2025_20_02_50
+s4(03Nov2025:20:02:50):  xrun -f flist +access+rw -sv 
+#e5(03Nov2025:20:22:49): source ./xcelium.d/env.d/env.history.03Nov2025_20_22_49
+s5(03Nov2025:20:22:49):  xrun -f flist +access+rw -sv 
+#e6(03Nov2025:20:30:43): source ./xcelium.d/env.d/env.history.03Nov2025_20_30_43
+s6(03Nov2025:20:30:43):  xrun -f flist +access+rw -sv 

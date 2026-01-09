@@ -1,0 +1,44 @@
+-sv
+-timescale 1ns/100ps
+
+# TESTBENCH FILES
+./../01_bench/driver.sv
+./../01_bench/scoreboard.sv
+./../01_bench/tlib.svh
+./../01_bench/tbench.sv
+
+# SOURCE CODE FILES (compile order matters)
+./../00_src/params.vh
+
+./../00_src/full_adder.sv
+./../00_src/compare.sv
+./../00_src/add_sub.sv
+./../00_src/logic_ops.sv
+./../00_src/shifter.sv
+./../00_src/alu.sv
+./../00_src/control_logic.sv
+
+./../00_src/immgen.sv
+./../00_src/inst_mem.sv
+
+# Branch comparator stack
+./../00_src/comparator_1bit.sv
+./../00_src/comparator_32bit_unsigned.sv
+./../00_src/brc.sv
+
+# LSU + memories + peripherals
+./../00_src/lsu.sv
+./../00_src/memory.sv
+./../00_src/output_peripherals.sv
+./../00_src/bin2bcd.sv
+./../00_src/timer.sv
+./../00_src/timer_wrapper.sv
+
+# === NEW REGFILE STACK (replaces old RegFile.sv) ===
+./../00_src/decoder5to32.sv        # NEW: decoder used by regfile
+./../00_src/mux32to1_32bit.sv      # NEW: read mux
+./../00_src/reg32.sv               # NEW: 32-bit reg cell (sync write)
+./../00_src/regfile.sv             # NEW: top regfile (2R1W, with bypass if bà đã thêm)
+
+# Keep CPU top at the very end
+./../00_src/single_cycle.sv

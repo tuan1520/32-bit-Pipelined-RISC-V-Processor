@@ -1,0 +1,32 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/yellow/ktmt_l01_l02_23/workspace/01_bench/driver.sv
+/home/yellow/ktmt_l01_l02_23/workspace/01_bench/scoreboard.sv
+/home/yellow/ktmt_l01_l02_23/workspace/01_bench/tlib.svh
+/home/yellow/ktmt_l01_l02_23/workspace/01_bench/tbench.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/params.vh
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/full_adder.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/compare.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/add_sub.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/logic_ops.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/shifter.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/alu.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/control_logic.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/immgen.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/inst_mem.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/comparator_1bit.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/comparator_32bit_unsigned.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/brc.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/lsu.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/memory.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/output_peripherals.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/bin2bcd.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/timer.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/timer_wrapper.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/decoder5to32.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/mux32to1_32bit.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/reg32.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/regfile.sv
+/home/yellow/ktmt_l01_l02_23/workspace/00_src/single_cycle.sv

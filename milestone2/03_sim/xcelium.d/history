@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(03Nov2025:19:00:22):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_19_00_22)
+s2::(03Nov2025:19:41:20):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_19_41_20)
+s3::(03Nov2025:19:50:31):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_19_50_31)
+s4::(03Nov2025:20:02:50):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_20_02_50)
+s5::(03Nov2025:20:22:49):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_20_22_49)
+s6::(03Nov2025:20:30:43):( xrun -f flist +access+rw -sv )&&(./xcelium.d/env.d/env.history.03Nov2025_20_30_43)
